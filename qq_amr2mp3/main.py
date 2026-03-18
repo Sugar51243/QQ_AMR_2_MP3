@@ -29,7 +29,7 @@ class MainWindow(QMainWindow):
         
         # 设置窗口标题和大小
         print("Loading window...")
-        self.setWindowTitle("QQ音频缓存(ARM)还原(MP3)工具")
+        self.setWindowTitle("QQ音频缓存(AMR)还原(MP3)工具")
         self.setGeometry(500, 500, 1000, 500)  # x, y, width, height
         self.setWindowFlags(self.windowFlags() & ~0x00040000)  # 禁止最大化
         self.setFixedSize(1000, 500)  # 设置窗口为固定大小
